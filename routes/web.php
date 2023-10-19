@@ -21,7 +21,7 @@ use App\Http\Controllers\MasyarakatController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
 Route::get('/login', [authController::class, 'login'])->name('login');
