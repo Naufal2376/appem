@@ -29,7 +29,7 @@
                         <td width="250px">{{ $item->isi_pengaduan }}</td>
                         <td><img src="{{ asset('asset/foto') }}/{{ $item->foto }}" width="100px"></td>
                         <td>
-                            <a href="{{ route('detail_tanggapan', $item->id_pengaduan) }}" class="btn btn-primary">
+                            <a href="{{ route('tanggapi_pengaduan', $item->id_pengaduan) }}" class="btn btn-primary">
                                 <span class="icon text-white-50">
                                     <i class="fas fa-fw fa-check"></i>
                                 </span>
